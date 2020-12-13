@@ -14,3 +14,8 @@
 
 ### String
 - [ES2015 String New 메소드](https://github.com/cwadven/JavaScript_ES6/blob/master/string/string.md "ES2015 String New 메소드")
+
+---
+
+### Array
+- [반복문 순회](https://github.com/cwadven/JavaScript_ES6/blob/master/array/for_of.md "반복문 순회")
