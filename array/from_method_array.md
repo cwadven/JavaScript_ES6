@@ -30,7 +30,7 @@ addMark(1, 2, 3, 4, 5);
 ```javascript
 function addMark(){
     let newData = arguments.map(function(value){
-        return value + "1";
+        return value + "!";
     })
     console.log(newData);
 }
@@ -55,7 +55,7 @@ map은 자료형이 배열이여야 사용 가능하다!
 function addMark(){
     let newArray = Array.from(arguments);
     let newData = newArray.map(function(value){
-        return value + "1";
+        return value + "!";
     })
     console.log(newData);
 }
