@@ -24,9 +24,11 @@ for (var i=0; i<list.length; i++){
 "i 번째 리스트 입니다." <br>
 "i 번째 리스트 입니다." <br>
 
-이런 이유는 `i`가 closure 변수라고 할 수 있다.
+이런 이유는 `i`가 closure가 일어나기 때문이다.
 
-var 변수 여서!? i의 마지막 된 값을 공유 한다.
+var 이 계속 살아 있는 변수여서, i의 마지막 된 값을 공유 한다.
+
+우선적으로 같은 environment의 블록의 var을 보고 없으면 outer environment를 보기 때문에...
 
 이 문제를 해결하는 방법으로는 `var`를 `let`으로 만들면 된다.
 
