@@ -21,3 +21,5 @@
 - [반복문 순회](https://github.com/cwadven/JavaScript_ES6/blob/master/array/for_of.md "반복문 순회")
 - [spread operator 배열의 복사](https://github.com/cwadven/JavaScript_ES6/blob/master/array/spread_operator_array_copy.md "spread operator 배열의 복사")
 - [spread operator 활용](https://github.com/cwadven/JavaScript_ES6/blob/master/array/spread_operator_activity.md "spread operator 활용")
+- [from 메서드로 진짜 배열 만들기](https://github.com/cwadven/JavaScript_ES6/blob/master/array/from_method_array.md "from 메서드로 진짜 배열 만들기")
+
