@@ -42,7 +42,7 @@ for(let idx in data){
 }
 ```
 
-### 3. for of 형태
+### 4. for of 형태
 
 ```javascript
 var data = [1, 2, undefined, NaN, null, ""];
