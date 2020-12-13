@@ -13,4 +13,4 @@
 ---
 
 ### String
-- [ES2015 String New 메소드](https://github.com/cwadven/JavaScript_ES6/blob/master/scope/ES6(ES2015).md "ES2015 String New 메소드")
+- [ES2015 String New 메소드](https://github.com/cwadven/JavaScript_ES6/blob/master/string/string.md "ES2015 String New 메소드")
