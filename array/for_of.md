@@ -1,4 +1,4 @@
-## for of
+## 반복문
 
 JavaScript ES6 반복문 사용 방법
 
