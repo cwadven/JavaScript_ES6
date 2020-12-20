@@ -1,0 +1,43 @@
+<script>
+    // 오버워치 챔피언 정보
+    // 속성 name, 궁극기 대사, Health Point
+    // name은 불변 초기 세팅으로만 들어간다.
+    // 궁극기 대사 불변
+    // 데미지를 받았을 때 호출되는 함수
+    // 힐 받았을 때 호출되는 함수
+    // 궁극기 대사 출력하는 함수
+
+    OverWatch = (name, speach) => {
+        const _name = name;
+        const _speach = speach;
+
+        let Health_Point = 100;
+
+        const damage = () => {
+            Health_Point = Health_Point - 10;
+            console.log("앍");
+            console.log(Health_Point);
+        };
+
+        const heal = () => {
+            Health_Point = Health_Point + 10;
+            console.log("용사는 죽지 않아요~!");
+            console.log(Health_Point)
+        };
+
+        const ultimate = () => {
+            return _speach;
+        }
+
+        return {_name, _speach, Health_Point, damage, heal, ultimate}
+    }
+
+    champion = OverWatch("트레이서", "데자뷰 느껴본적 있어?");
+    console.log(champion);
+    champion.damage();
+    champion.damage();
+    champion.heal();
+    console.log(champion.ultimate());
+    
+
+</script>
