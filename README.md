@@ -23,3 +23,6 @@
 - [spread operator 활용](https://github.com/cwadven/JavaScript_ES6/blob/master/array/spread_operator_activity.md "spread operator 활용")
 - [from 메서드로 진짜 배열 만들기 + 인자값 arguments로 가져오기](https://github.com/cwadven/JavaScript_ES6/blob/master/array/from_method_array.md "from 메서드로 진짜 배열 만들기")
 
+### 실습 1 - 특정 문자열이 포함된 배열 만들어 반환하기
+- [실습예제](https://github.com/cwadven/JavaScript_ES6/blob/master/activity/question.md "실습예제")
+- [실습예제풀이](https://github.com/cwadven/JavaScript_ES6/blob/master/activity/answer.md "실습예제풀이")
